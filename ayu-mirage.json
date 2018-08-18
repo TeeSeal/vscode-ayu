@@ -84,7 +84,7 @@
 		"peekViewResult.matchHighlightBackground": "#ffcc6633",
 		"peekViewResult.fileForeground": "#738699",
 		"diffEditor.insertedTextBackground": "#95e6cb44",
-		"diffEditor.removedTextBackground": "#f0717844",
+		"diffEditor.removedTextBackground": "#F2877944",
 		"editorGroup.background": "#272d38",
 		"editorGroup.border": "#343d4a",
 		"editorGroupHeader.tabsBackground": "#212733",
@@ -155,7 +155,7 @@
 		"terminal.ansiCyan": "#95e6cb",
 		"terminal.ansiWhite": "#c7c7c7",
 		"terminal.ansiBrightBlack": "#686868",
-		"terminal.ansiBrightRed": "#f07178",
+		"terminal.ansiBrightRed": "#F28779",
 		"terminal.ansiBrightGreen": "#cbe645",
 		"terminal.ansiBrightYellow": "#ffdf80",
 		"terminal.ansiBrightBlue": "#6871ff",
@@ -178,8 +178,15 @@
 			}
 		},
 		{
-			"name": "Variable",
-			"scope": "variable",
+			"name": "Variables and Labels",
+			"scope": "variable, support.variable, entity.name.label",
+			"settings": {
+				"foreground": "#D9D7CE"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation.accessor, punctuation.terminator, punctuation.separator, meta.brace, punctuation.definition.block",
 			"settings": {
 				"foreground": "#D9D7CE"
 			}
@@ -223,7 +230,7 @@
 			"name": "Other Variable, String Link",
 			"scope": "support.other.variable, string.other.link",
 			"settings": {
-				"foreground": "#F07178"
+				"foreground": "#F28779"
 			}
 		},
 		{
@@ -376,7 +383,7 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#F07178"
+				"foreground": "#F28779"
 			}
 		},
 		{
@@ -384,7 +391,7 @@
 			"scope": "markup.bold",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#F07178"
+				"foreground": "#F28779"
 			}
 		},
 		{
@@ -594,7 +601,7 @@
 			"name": "AceJump Label - Purple",
 			"scope": "acejump.label.purple",
 			"settings": {
-				"background": "#F07178",
+				"background": "#F28779",
 				"foreground": "#FFFFFF"
 			}
 		},
