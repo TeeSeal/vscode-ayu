@@ -228,7 +228,7 @@
 		},
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
+			"scope": "constant.numeric, constant.character, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
 			"settings": {
 				"foreground": "#D4BFFF"
 			}
@@ -314,8 +314,8 @@
 			}
 		},
 		{
-			"name": "Regular Expressions and Escape Characters",
-			"scope": "string.regexp, constant.character.escape",
+			"name": "Regular Expressions",
+			"scope": "string.regexp",
 			"settings": {
 				"foreground": "#95E6CB"
 			}
