@@ -178,7 +178,7 @@
 			}
 		},
 		{
-			"name": "Variables and Labels",
+			"name": "Variable, Label",
 			"scope": "variable, support.variable, entity.name.label",
 			"settings": {
 				"foreground": "#D9D7CE"

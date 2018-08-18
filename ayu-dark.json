@@ -178,8 +178,15 @@
 			}
 		},
 		{
-			"name": "Variable",
-			"scope": "variable",
+			"name": "Variable, Label",
+			"scope": "variable, support.variable, entity.name.label",
+			"settings": {
+				"foreground": "#E6E1CF"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation.accessor, punctuation.terminator, punctuation.separator, meta.brace, punctuation.definition.block",
 			"settings": {
 				"foreground": "#E6E1CF"
 			}
@@ -228,7 +235,7 @@
 		},
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
+			"scope": "constant.numeric, constant.character, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
 			"settings": {
 				"foreground": "#FFEE99"
 			}
@@ -315,7 +322,7 @@
 		},
 		{
 			"name": "Regular Expressions and Escape Characters",
-			"scope": "string.regexp, constant.character.escape",
+			"scope": "string.regexp",
 			"settings": {
 				"foreground": "#95E6CB"
 			}
