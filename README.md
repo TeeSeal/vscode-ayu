@@ -1,3 +1,7 @@
+>This is a fork of the [original ayu extension](https://github.com/teabyii/vscode-ayu) at version 0.14.0.
+I did not like the changes made in 0.15.0 so I forked the extension and rolled back. This extension may include
+some personal touches which were not present in the original ayu extension.
+
 ![vscode-ayu](assets/header.png)
 
 > Source from: https://github.com/dempfi/ayu
